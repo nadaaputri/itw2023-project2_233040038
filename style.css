@@ -1,0 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+  overflow-x: hidden;
+  width: 100%;
+}
+
+nav {
+  background-color: #8039d2;
+}
+.navbar-brand {
+  font-family: "Ephesis", cursive;
+  font-size: 25px;
+}
+
+.jumbotron {
+  padding-top: 7rem;
+  background: linear-gradient(#9a08dd 0%, #dd4c4f 40%, #7420d3 100%);
+  width: 100%;
+}
+
+#about {
+  background: linear-gradient(#fffeff 0%, #ffffffe7 40%, #fdfdfd19 100%);
+  padding-bottom: 200px;
+}
+
+#hobby {
+  background: linear-gradient(#fdfdfd19 0%, #ffffff83 40%, #fffefffe 100%);
+}
+
+#gallery {
+  background-color: white;
+}
+
+#contact {
+  background: linear-gradient(#7420d3 0%, #dd4c4f 40%, #9a08dd 100%);
+}
+
+footer {
+  background-color: #8039d2;
+}
+
+section {
+  padding-top: 7rem;
+}
