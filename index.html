@@ -98,7 +98,7 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
-            <div class="card" data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="1000">
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="200" data-aos-duration="1500">
               <img src="img/hobby/foto-langit.jpg" class="card-img-top" alt="Memotret pemandangan" />
               <div class="card-body">
                 <p class="card-text fs-5">Memotret pemandangan atau langit.</p>
@@ -110,7 +110,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="300" data-aos-duration="1500">
               <img src="img/hobby/tari.jpg" class="card-img-top" alt="Tari tradisional" />
               <div class="card-body">
                 <p class="card-text fs-5">Menari tari tradisional.</p>
@@ -118,7 +118,7 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card" data-aos="zoom-in-up" data-aos-delay="700" data-aos-duration="1000">
+            <div class="card" data-aos="zoom-in-up" data-aos-delay="400" data-aos-duration="1500">
               <img src="img/hobby/netflix.jpg" class="card-img-top" alt="Menonton film" />
               <div class="card-body">
                 <p class="card-text fs-5">Menonton film.</p>
@@ -261,7 +261,9 @@
         img.dataset.aosDuration = 1000;
       });
 
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
 
     <!-- Script Form -->
